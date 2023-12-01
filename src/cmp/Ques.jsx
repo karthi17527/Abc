@@ -8,7 +8,7 @@ export default function Ques(props) {
   const count=useRef(-1)
   let a=count.current
   if (props.s <= 0){
-    count.current=count.current+0.5
+    count.current=count.current+1
     a=count.current
   }
   return (
